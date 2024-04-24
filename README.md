@@ -1,4 +1,4 @@
-# Labb3-API: API-anrop:
+# API-anrop:
 
 ## POST/persons
 ### I request body:
