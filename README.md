@@ -1,8 +1,7 @@
 # Labb3-API
-*API-anrop:* 
+# API-anrop:* 
 
-**POST/persons**
-
+##POST/persons
 ***första personen:***
 <br />
 {
@@ -72,7 +71,7 @@
   ]
 }
 <br />
-**GET/persons**
+## GET/persons
 Execute för att se personernas personId
 <br />
 **PUT/persons/{personId}/interests**
@@ -86,12 +85,12 @@ Execute för att se personernas personId
   }
 ]
 <br />
-**GET/persons/{personId}/interests**
+## GET/persons/{personId}/interests
 ***personId:*** personId för "Maria"
 
 Execute för att se vilket interestId "Odla" har 
 <br />
-**PUT /persons/{personId}/interests/{interestId}/links**
+## PUT /persons/{personId}/interests/{interestId}/links
 ***personId:*** personId för "Maria"
 ***interestId:*** interestId för "Odla"
 <br />
@@ -106,7 +105,7 @@ i req-body:
   }
 ]
 <br />
-**GET/persons/{personId}/interests/links**
+## GET/persons/{personId}/interests/links
 ***personId***: personId för "Maria"
 
 Execute för att se de nya länkarna kopplade till Maria
