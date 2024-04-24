@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Labb3_API.Models
 {
-    public class Interest
+    public class Interest //model for Interest with foreign key PersonId and List of Links
     {
         [Key]
         public int InterestId { get; set; }

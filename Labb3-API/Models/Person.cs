@@ -2,7 +2,7 @@
 
 namespace Labb3_API.Models
 {
-    public class Person
+    public class Person //Model for person with a list of interests
     {
         [Key]
         public int PersonId { get; set; }
