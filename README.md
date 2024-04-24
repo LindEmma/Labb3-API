@@ -2,9 +2,9 @@
 
 ## POST/persons
 # I request body:
-<br />
+
 ### första personen:
-<br />
+
 {
   "firstName": "Maria",
   "lastName": "Andersson",
