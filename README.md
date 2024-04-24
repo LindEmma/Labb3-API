@@ -1,8 +1,9 @@
-# Labb3-API
-# API-anrop:
+# Labb3-API: API-anrop:
 
 ## POST/persons
-**första personen:**
+# I request body:
+<br />
+### första personen:
 <br />
 {
   "firstName": "Maria",
@@ -37,7 +38,7 @@
 }
 
 <br />
-**andra personen:**
+### andra personen:
 <br />
 {
   "firstName": "Erik",
