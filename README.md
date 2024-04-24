@@ -1,8 +1,8 @@
 # Labb3-API
-# API-anrop:* 
+# API-anrop:
 
-##POST/persons
-***första personen:***
+## POST/persons
+**första personen:**
 <br />
 {
   "firstName": "Maria",
@@ -37,7 +37,7 @@
 }
 
 <br />
-***andra personen:***
+**andra personen:**
 <br />
 {
   "firstName": "Erik",
@@ -72,12 +72,14 @@
 }
 <br />
 ## GET/persons
+<br />
 Execute för att se personernas personId
 <br />
-**PUT/persons/{personId}/interests**
-***personId:*** personId för "Maria"
+## PUT/persons/{personId}/interests
 <br />
-***req-body:*** 
+**personId:** personId för "Maria"
+<br />
+**req-body:** 
 [
   {
     "interestName": "Odla",
@@ -86,15 +88,17 @@ Execute för att se personernas personId
 ]
 <br />
 ## GET/persons/{personId}/interests
-***personId:*** personId för "Maria"
-
+<br />
+**personId:** personId för "Maria"
+<br />
 Execute för att se vilket interestId "Odla" har 
 <br />
 ## PUT /persons/{personId}/interests/{interestId}/links
-***personId:*** personId för "Maria"
-***interestId:*** interestId för "Odla"
 <br />
-i req-body: 
+**personId:** personId för "Maria"
+**interestId:** interestId för "Odla"
+<br />
+**i req-body:** 
 <br />
 [
   {
@@ -106,6 +110,7 @@ i req-body:
 ]
 <br />
 ## GET/persons/{personId}/interests/links
+<br />
 ***personId***: personId för "Maria"
-
+<br />
 Execute för att se de nya länkarna kopplade till Maria
