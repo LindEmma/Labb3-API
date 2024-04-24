@@ -4,6 +4,7 @@
 **POST/persons**
 
 ***första personen:***
+<br />
 {
   "firstName": "Maria",
   "lastName": "Andersson",
@@ -36,7 +37,9 @@
   ]
 }
 
+<br />
 ***andra personen:***
+<br />
 {
   "firstName": "Erik",
   "lastName": "Larsson",
@@ -68,13 +71,13 @@
     }
   ]
 }
-
+<br />
 **GET/persons**
 Execute för att se personernas personId
-
+<br />
 **PUT/persons/{personId}/interests**
 ***personId:*** personId för "Maria"
-
+<br />
 ***req-body:*** 
 [
   {
@@ -82,18 +85,18 @@ Execute för att se personernas personId
     "interestDescription": "Blommor i trädgården"
   }
 ]
-
+<br />
 **GET/persons/{personId}/interests**
 ***personId:*** personId för "Maria"
 
 Execute för att se vilket interestId "Odla" har 
-
+<br />
 **PUT /persons/{personId}/interests/{interestId}/links**
 ***personId:*** personId för "Maria"
 ***interestId:*** interestId för "Odla"
-
+<br />
 i req-body: 
-
+<br />
 [
   {
     "url": "Odla.nu"
@@ -102,7 +105,7 @@ i req-body:
     "url": "Grönafingrar.se"
   }
 ]
-
+<br />
 **GET/persons/{personId}/interests/links**
 ***personId***: personId för "Maria"
 
